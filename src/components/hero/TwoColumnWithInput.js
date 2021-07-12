@@ -58,14 +58,14 @@ export default ({ roundedHeaderButton }) => {
             <Paragraph>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
             </Paragraph>
-            <Actions>
+            {/* <Actions>
               <input type="text" placeholder="Your E-mail Address" />
               <button>Get Started</button>
-            </Actions>
-            <CustomersLogoStrip>
+            </Actions> */}
+            {/* <CustomersLogoStrip>
               <p>Our TRUSTED Customers</p>
               <img src={CustomersLogoStripImage} alt="Our Customers" />
-            </CustomersLogoStrip>
+            </CustomersLogoStrip> */}
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>

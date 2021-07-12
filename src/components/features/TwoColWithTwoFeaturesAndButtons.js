@@ -54,7 +54,7 @@ export default ({
   ),
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   primaryButtonText = "See Our Portfolio",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "#",
   features = null,
   textOnLeft = true
 }) => {
@@ -72,7 +72,7 @@ export default ({
     },
     {
       Icon: MoneyIcon,
-      title: "Affordable",
+      title: "Affordableaa",
       description: "We promise to offer you the best rate we can - at par with the industry standard."
     }
   ];

@@ -6,7 +6,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 
-import logo from "../../images/logo.svg";
+import logo from "../../images/logo.png";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
@@ -37,7 +37,7 @@ export const LogoLink = styled(NavLink)`
   ${tw`flex items-center font-black border-b-0 text-2xl! ml-0!`};
 
   img {
-    ${tw`w-10 mr-3`}
+    ${tw`w-20 mr-2`}
   }
 `;
 
@@ -72,14 +72,15 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Blog</NavLink>
-      <NavLink href="/#">Pricing</NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
+      <NavLink href="/#">BZM About Team</NavLink>
+      <NavLink href="/#">Project</NavLink>
+      <NavLink href="/#">Network Marketing</NavLink>
+      <NavLink href="/#">Our Shares</NavLink>
+      <NavLink href="/#">FAQs</NavLink>
       <NavLink href="/#" tw="lg:ml-12!">
         Login
       </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink>
+      <PrimaryLink style={{backgroundColor:'#0f5298'}} css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink>
     </NavLinks>
   ];
 
@@ -88,8 +89,8 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
   const defaultLogoLink = (
     <LogoLink href="/">
-      {/* <img src={logo} alt="logo" /> */}
-      BZM SHARES
+      <img style={{width:300}} src={logo} alt="logo" />
+      {/* BZM SHARES */}
     </LogoLink>
   );
 
